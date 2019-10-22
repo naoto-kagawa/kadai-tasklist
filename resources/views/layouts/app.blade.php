@@ -19,6 +19,8 @@
                 <div class="collapse navbar-collapse" id="nav-bar">
                     <ul class="navbar-nav mr-auto"></ul>
                     <ul class="navbar-nav">
+                        <li>{!! link_to_route('signup.get', 'ユーザー登録', [], ['class' => 'nav-link']) !!}</li>
+                        <li><a href="#">Login</a></li>
                         <li class="nav-item">{!! link_to_route('tasks.create', '新規タスクを追加', [], ['class' => 'nav-link']) !!}</li>
                     </ul>
                 </div>
