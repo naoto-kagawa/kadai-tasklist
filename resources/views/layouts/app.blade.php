@@ -24,7 +24,7 @@
                             <li class="nav-item">{!! link_to_route('logout.get', 'Logout', [], ['class' => 'nav-link']) !!}</li>
                         @else
                             <li>{!! link_to_route('signup.get', 'ユーザー登録', [], ['class' => 'nav-link']) !!}</li>
-                            <li><a href="#">Login</a></li>
+                            <li>{!! link_to_route('login', 'ログイン', [], ['class' => 'nav-link']) !!}</li>
                         @endif
                     </ul>
                 </div>
